@@ -1,0 +1,12 @@
+{
+    "name": "proyecto/viajes",
+    "autoload": {
+        "psr-4": {
+            "Proyecto\\Viajes\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "mpdf/mpdf": "^8.1"
+    }
+}

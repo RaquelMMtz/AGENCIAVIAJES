@@ -1,0 +1,168 @@
+/* css datatables */
+.filter-date-inputs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dt-button {
+  border: none !important;
+  background-color: #4e73df !important;
+  border-radius: 5px !important;
+  color: #fff !important;
+}
+
+/* end css datatables */
+
+/* ---------- */
+
+/* css tablas */
+
+.img-destinos {
+  object-fit: cover;
+}
+
+.td-long {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Trunca el texto a dos líneas */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  height: 80px;
+}
+
+.destinos-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+/* end css tablas */
+
+/* ------------ */
+
+/* css viajes */
+
+.img-viajes{
+    width: 100%;
+    height: 160px;
+}
+
+.card-footer-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-dates-destino {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.info-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.img-description-destino {
+    width: 100%;
+}
+
+.tour-booking{
+    background-color: #F4F7F8;
+}
+
+/* end css viajes */
+
+/* -------- */
+
+/* css recibos */
+
+
+/* css innvoice */
+
+.invoice-box {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #555;
+}
+
+.invoice-box table {
+  width: 100%;
+  line-height: inherit;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.invoice-box table td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+  text-align: right;
+}
+
+.invoice-box table tr.top table td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+  font-size: 45px;
+  line-height: 45px;
+  color: #333;
+}
+
+.invoice-box table tr.information table td {
+  padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading td {
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.invoice-box table tr.details td {
+  padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td {
+  border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+  border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+  border-top: 2px solid #eee;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .invoice-box table tr.top table td {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .invoice-box table tr.information table td {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+
+/* end css recibos */
